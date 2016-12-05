@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'contact/index'
+
+  get 'about/index'
+
+  get 'services/index'
+
   root 'dashboard#index'
 
   
