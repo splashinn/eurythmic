@@ -3,7 +3,21 @@
 @import 'slick';
 
 body {
-  padding: 50px;
+  padding: 50px 0px 0px 0px;
+}
+
+#home {
+  position: relative;
+  width: 100%;
+}
+
+#title {
+  position: absolute;
+  font-size: 75px;
+  top: 250px;
+  left: 85px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
 .container {
